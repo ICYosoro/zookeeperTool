@@ -4,6 +4,9 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Unit test for simple App.
  */
@@ -33,6 +36,9 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( true );
+        List<String> list = new ArrayList<>();
+        list.add("a");
+        list.add("b");
+        System.out.println(list.toString());
     }
 }

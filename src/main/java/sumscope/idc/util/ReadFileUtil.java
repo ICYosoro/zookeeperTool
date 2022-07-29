@@ -2,7 +2,6 @@ package sumscope.idc.util;
 
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -20,7 +19,6 @@ import java.util.stream.Stream;
  * @create 2022-07-28 14:32
  * @project zookeeperTool
  */
-@Slf4j
 public class ReadFileUtil {
 
     public static List<String> readNodeFile(String filePath) {
